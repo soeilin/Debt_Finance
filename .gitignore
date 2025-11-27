@@ -205,3 +205,20 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+# Excel / Office
+~$*.xlsx
+~$*.xlsm
+*.tmp
+*.bak
+
+# OS files 
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Jupyter
+.ipynb_checkpoints
+
+# VSCode 
+.vscode/
