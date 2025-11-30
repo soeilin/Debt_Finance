@@ -8,11 +8,11 @@ To simulate a monthly portfolio monitoring process used in credit decisioning an
 
 The project replicates the workflow used in automated lending portfolios:
 
-• Calculate core credit KPIs
-• Analyse MoM movements and flag material changes
-• Visualise risk signals
-• Identify early-warning signals and potential risk shifts 
-• Summarise business-focused insights for decisioning
+• Calculate core credit KPIs <br>
+• Analyse MoM movements and flag material changes <br>
+• Visualise risk signals <br>
+• Identify early-warning signals and potential risk shifts  <br>
+• Summarise business-focused insights for decisioning <br>
 
 ## Metrics Tracked
 • Bad rate (30+ DPD)  
