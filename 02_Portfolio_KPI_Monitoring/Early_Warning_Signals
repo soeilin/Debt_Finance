@@ -1,0 +1,17 @@
+Early Warning Signals
+
+Based on arrears propagation logic:
+
+Leading Signals
+• DPD1 ↑ for 2 consecutive months → risk build-up expected next month
+• Flow-through >15% → warning of new delinquency pressure
+
+Lagging Signals
+• Bad Rate spikes with no prior DPD1 increase
+• often operational or collections bottleneck rather than origination quality issue
+
+Seasonality Flags
+• Dec–Jan uplift common (spend spike + payment fatigue)
+• May–Jul uplift may signal macro pressure (inflation, winter cost spikes)
+
+
