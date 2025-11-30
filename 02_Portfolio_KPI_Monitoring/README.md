@@ -31,11 +31,11 @@ The project replicates the workflow used in automated lending portfolios:
 | Vintage Bad | New 30+ from recent cohorts | New-book quality check; detects underwriting risk |
 
 ## Methods
-• Synthetic monthly data (Python) : The model uses 12 months of synthetic data, designed to resemble a typical credit card / personal loan portfolio. Values are generated to produce realistic patterns in approval behaviour, early arrears formation, and late arrears flow-through.
-• KPI calculations (Python / Excel Dual-Version)  
-• Month-on-month movement tracking
-• Early-warning identification
-• Variance commentary with risk interpretation  
+• Synthetic monthly data (Python) : The model uses 12 months of synthetic data, designed to resemble a typical credit card / personal loan portfolio. Values are generated to produce realistic patterns in approval behaviour, early arrears formation, and late arrears flow-through. <br>
+• KPI calculations (Python / Excel Dual-Version)  <br>
+• Month-on-month movement tracking <br>
+• Early-warning identification <br>
+• Variance commentary with risk interpretation   <br>
 
 ## Outputs - Visuals
 • Early Arrears vs Bad Rate：Two-series overlay plot showing propagation of risk
