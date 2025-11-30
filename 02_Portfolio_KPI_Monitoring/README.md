@@ -7,6 +7,7 @@ This project builds a lightweight retial-credit risk monitoring pack. It showcas
 To simulate a monthly portfolio monitoring process used in credit decisioning and risk analytics teams for early detection of deterioration, identifying emerging risk themes, and supporting credit strategy decisions.
 
 The project replicates the workflow used in automated lending portfolios:
+
 • Calculate core credit KPIs
 • Analyse MoM movements
 • Visualise risk signals
