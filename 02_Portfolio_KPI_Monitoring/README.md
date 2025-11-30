@@ -38,8 +38,8 @@ The project replicates the workflow used in automated lending portfolios:
 • Variance commentary with risk interpretation   <br>
 
 ## Outputs - Visuals
-• Early Arrears vs Bad Rate：Two-series overlay plot showing propagation of risk
-• Approval Rate vs Bad Rate：Used to assess credit tightening/loosening impact
+• Early Arrears vs Bad Rate：Two-series overlay plot showing propagation of risk <br>
+• Approval Rate vs Bad Rate：Used to assess credit tightening/loosening impact <br>
 • MoM risk movement
 
 ## Outputs - Executive Insights (Summary)
