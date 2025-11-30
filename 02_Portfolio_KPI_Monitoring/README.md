@@ -9,9 +9,10 @@ To simulate a monthly portfolio monitoring process used in credit decisioning an
 The project replicates the workflow used in automated lending portfolios:
 
 • Calculate core credit KPIs
-• Analyse MoM movements
+• Analyse MoM movements and flag material changes
 • Visualise risk signals
-• Produce business-focused insights
+• Identify early-warning signals and potential risk shifts 
+• Summarise business-focused insights for decisioning
 
 ## Metrics Tracked
 • Bad rate (30+ DPD)  
@@ -19,6 +20,15 @@ The project replicates the workflow used in automated lending portfolios:
 • Approval/decline rates  
 • Utilisation rate  
 • Vintage performance (lite version)  
+
+## Data Dictionary (Key Fields)
+| Variable | Definition | Interpretation |
+|---------|------------|----------------|
+| DPD1 | Accounts 1+ day past due | Early-warning signal; leads DPD30 by 1–2 cycles |
+| DPD30 | Accounts 30+ days past due | Core bad-rate indicator; strong risk outcome metric |
+| Approval Rate | Approvals ÷ Applications | Tightening/loosening signal; impacts future risk mix |
+| Utilisation | Balances ÷ Limits | Behavioural stress indicator; rises during liquidity pressure |
+| Vintage Bad | New 30+ from recent cohorts | New-book quality check; detects underwriting risk |
 
 ## Methods
 • Synthetic monthly data (Python) : The model uses 12 months of synthetic data, designed to resemble a typical credit card / personal loan portfolio. Values are generated to produce realistic patterns in approval behaviour, early arrears formation, and late arrears flow-through.
@@ -32,9 +42,12 @@ The project replicates the workflow used in automated lending portfolios:
 • Approval Rate vs Bad Rate：Used to assess credit tightening/loosening impact
 • MoM risk movement
 
-## Outputs - Summary
-• Early warning signals  
-• Business-focused insights  
+## Outputs - Executive Insights (Summary)
+• Early arrears (DPD1) rose consistently during Feb–Mar, feeding into higher DPD30 in Apr–May.  
+• Approval tightening in Jul–Aug contributed to a stabilisation in bad rate in Sep.  
+• Vintage bad rate deterioration in Dec signals potential new-book quality issues.  
+• Utilisation trending up in Q4, hinting at behavioural liquidity stress.
+
 
 ## Skills Demonstrated
 Portfolio thinking, KPI variance analysis, Early-warning identification，Credit risk fundamentals (DPD1, DPD30, approval behaviour)，Visual storytelling with risk data，Python-based data workflow，Excel-based business-ready calculations
