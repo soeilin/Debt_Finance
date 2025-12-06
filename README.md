@@ -28,17 +28,13 @@ Includes cut-off rules, affordability checks, risk triggers, and decision outcom
 A basic monthly risk dashboard showing delinquency trends, bad-rate movement, approval rate, utilisation, and simple cohort performance.  
 Focus on interpretation and operational insight rather than modelling complexity.
 
-### 3. K-Means Segmentation (Behavioural / Risk Clustering)
+### 3. Portfolio Concentration Heatmap
+Built concentration heatmaps for exposure and bad-rate shifts, analysed exposure distribution across product/region/segment buckets using synthetic datasets
+
+### 4. K-Means Segmentation (Behavioural / Risk Clustering)
 A refreshed segmentation exercise demonstrating how behavioural variables can be used to group customers with similar lending or repayment characteristics.  
 Highlights the translation of clusters into credit-strategy actions.
 
-### 4. PD Model Lite (Logistic Regression)
-A baseline logistic-regression model predicting probability of default using a small set of clean features.  
-Emphasis on coefficient interpretation, ROC/AUC, PD ranking, and business impact — not on scorecard methodology.
-
-### 5. Regression (Elasticity / Drivers Analysis)
-A lightweight regression study to explain key portfolio metrics or commercial outcomes (e.g., spend, utilisation, revenue drivers).  
-Shows ability to translate statistical output into actionable business insights.
 
 ---
 
