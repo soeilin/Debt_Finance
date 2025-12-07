@@ -29,6 +29,7 @@ A synthetic retail-credit dataset with the following fields:
 
 Aggregates total exposure by segment × region (or any two categorical axes).
 Used to identify:
+
 • where the portfolio is concentrated   
 • whether concentration is increasing over time   
 • whether riskier segments hold disproportionate weight   
@@ -44,6 +45,7 @@ Designed to highlight:
 **3. Joint Interpretation**
 
 Combining exposure and bad-rate heatmaps helps answer:
+
 • Are high-risk clusters small but deteriorating?   
 • Are large exposure buckets stable or worsening?    
 • Do regional or segmental trends signal early warning?   
