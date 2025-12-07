@@ -5,7 +5,7 @@ It is designed as a technical learning portfolio covering credit-decision logic,
 
 # Credit Decisioning  
 The focus is on:
-• Understanding how lending decisions are made  
+• Understanding how lending decisions are made through rule-based credit decisioning and segmentation logic  
 • Applying quantitative methods to real-world credit problems  
 • Demonstrating business logic, segmentation, PD drivers, and portfolio monitoring  
 • Communicating insights clearly for risk, product, and credit-policy stakeholders  
@@ -19,10 +19,10 @@ The focus is on:
 
 # Technical Competency
 
-Python: pandas, numpy, matplotlib (selected)
-SQL: joins, CTEs, filters, aggregations
-KPI engineering, MoM/MoM trend decomposition
-Heatmaps & visual diagnostics
+• Analytics: KPI engineering, MoM/Rolling-window trend decomposition, segmentation analysis  
+• Programming: Python (pandas, numpy, matplotlib), SQL (joins, CTEs, filters), SAS (foundation)  
+• Visual Diagnostics: Heatmaps, risk signal detection, portfolio movement analysis  
+
 
 # Risk Narrative & Stakeholder Reporting
 Structured commentary: what moved, why it moved, what it means
