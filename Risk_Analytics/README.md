@@ -26,9 +26,9 @@ Detect structural concentration within exposures or risk outcomes.
 
 **Key Outputs**
 
-• Exposure distribution by geography, product, or borrower attributes
-• Heatmap to identify clusters of elevated utilisation or delinquency
-• Interpretation of concentration risk and potential implications
+• Exposure distribution by geography, product, or borrower attributes 
+• Heatmap to identify clusters of elevated utilisation or delinquency 
+• Interpretation of concentration risk and potential implications 
 
 **Risk Concepts Illustrated**
 
@@ -40,16 +40,16 @@ Detect structural concentration within exposures or risk outcomes.
 
 **Tools - Python**
 
-• Data cleaning & preparation (pandas)
-• KPI construction and transformation
-• Trend & variance analysis
-• Heatmap visualisation (matplotlib / seaborn if used)
+• Data cleaning & preparation (pandas) 
+• KPI construction and transformation 
+• Trend & variance analysis 
+• Heatmap visualisation (matplotlib / seaborn if used) 
 
 **Analytics Discipline**
 
-• Consistent metric definitions
-• Driver-based decomposition
-• Clear, logical interpretation aligned with risk-management expectations
+• Consistent metric definitions 
+• Driver-based decomposition 
+• Clear, logical interpretation aligned with risk-management expectations 
 
 
 
