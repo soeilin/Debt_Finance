@@ -11,7 +11,7 @@ The focus is on:
 • Demonstrating business logic, segmentation, PD drivers, and portfolio monitoring  
 • Communicating insights clearly for risk, product, and credit-policy stakeholders  
 
-# Risk Analyst
+# Risk Analytics
 The focus is on:
 
 • Monitoring MoM and rolling-window trends  
