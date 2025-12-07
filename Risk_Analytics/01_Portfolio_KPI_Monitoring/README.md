@@ -46,7 +46,7 @@ The project replicates the workflow used in automated lending portfolios:
 • Early arrears (DPD1) rose consistently during Feb–Mar, feeding into higher DPD30 in Apr–May.  
 • Approval tightening in Jul–Aug contributed to a stabilisation in bad rate in Sep.  
 • Vintage bad rate deterioration in Dec signals potential new-book quality issues.  
-• Utilisation trending up in Q4, hinting at behavioural liquidity stress.
+• Utilisation trending up in Q4, hinting at behavioural liquidity stress
 
 
 ## Skills Demonstrated
