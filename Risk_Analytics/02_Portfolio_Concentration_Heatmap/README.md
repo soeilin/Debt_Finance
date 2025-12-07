@@ -16,11 +16,11 @@ This project replicates a common workflow used in Risk Analytics and Portfolio I
 
 A synthetic retail-credit dataset with the following fields:
 
-• segment (Core / HighRisk / Value)
-• product_type (Cards / Loans — configurable)
-• region (North / Central / South — illustrative)
-• exposure (account balance or limit proxy)
-• dpd30_flag (1 = 30+ delinquent, 0 = current)
+• segment (Core / HighRisk / Value)   
+• product_type (Cards / Loans — configurable)   
+• region (North / Central / South — illustrative)   
+• exposure (account balance or limit proxy)   
+• dpd30_flag (1 = 30+ delinquent, 0 = current)  
 
 
 # Methods
@@ -29,53 +29,53 @@ A synthetic retail-credit dataset with the following fields:
 
 Aggregates total exposure by segment × region (or any two categorical axes).
 Used to identify:
-• where the portfolio is concentrated
-• whether concentration is increasing over time
-• whether riskier segments hold disproportionate weight
+• where the portfolio is concentrated   
+• whether concentration is increasing over time   
+• whether riskier segments hold disproportionate weight   
 
 **2. Bad-Rate Heatmap**
 
 Calculates bad-rate (DPD30+) by segment × region.
 Designed to highlight:
-• deterioration clusters
-• geographies with emerging stress
-• segment pockets where performance diverges from the portfolio average
+• deterioration clusters   
+• geographies with emerging stress   
+• segment pockets where performance diverges from the portfolio average  
 
 **3. Joint Interpretation**
 
-• Combining exposure and bad-rate heatmaps helps answer:
-• Are high-risk clusters small but deteriorating?
-• Are large exposure buckets stable or worsening?
-• Do regional or segmental trends signal early warning?
-• Which areas require deeper drill-down, AB testing, or policy review?
+Combining exposure and bad-rate heatmaps helps answer:
+• Are high-risk clusters small but deteriorating?   
+• Are large exposure buckets stable or worsening?    
+• Do regional or segmental trends signal early warning?   
+• Which areas require deeper drill-down, AB testing, or policy review?    
 
 # Key Visuals
 Heatmaps are generated using pandas + matplotlib / seaborn, ensuring full reproducibility.
 
-• Exposure Heatmap (absolute balances / % of portfolio)
-• Bad-Rate Heatmap (% DPD30+)
-• Overlay Table summarising risk ranking and notable pockets
+• Exposure Heatmap (absolute balances / % of portfolio)   
+• Bad-Rate Heatmap (% DPD30+)   
+• Overlay Table summarising risk ranking and notable pockets   
 
 # Skills Demonstrated
 
 **Portfolio Risk & Analytics**
 
-• Concentration-risk assessment
-• Deterioration scanning across matrix dimensions
-• Bad-rate computation and interpretation
-• Early-warning identification
+• Concentration-risk assessment   
+• Deterioration scanning across matrix dimensions   
+• Bad-rate computation and interpretation   
+• Early-warning identification  
 
 **Technical**
 
-• pandas for aggregation and matrix construction
-• matplotlib / seaborn for heatmap generation
-• Reproducible Python workflow for analytics reporting
+• pandas for aggregation and matrix construction   
+• matplotlib / seaborn for heatmap generation   
+• Reproducible Python workflow for analytics reporting   
 
 **Business Communication**
 
-• Insight-driven commentary
-• Highlighting risk pockets and exposure implications
-• Translating visual diagnostics into portfolio-actions context
+• Insight-driven commentary   
+• Highlighting risk pockets and exposure implications   
+• Translating visual diagnostics into portfolio-actions context  
 
 
 
