@@ -19,29 +19,34 @@ Highlights how behavioural clusters translate into actionable credit-strategy ru
 ## Skills Demonstrated
 
 **Quantitative Analysis**
+
 • Logistic regression (lite)  
 • Clustering & segmentation  
 • Feature interpretation & risk ranking  
 • Trend analysis & cohort monitoring  
 
 **Credit / Risk Concepts**
+
 • PD intuition and marginal risk contribution  
 • Approval / decline logic  
 • High-risk indicators & affordability flags  
 • Portfolio health metrics (bad rate, MoM, roll rates)  
 
 **Decisioning Logic & Rule Structurings**
+
 • Rule ordering and dependency logic  
 • Cut-off implementation  
 • Trigger-based outcomes  
 • Understanding of adverse vs acceptable paths  
 
 **Technical Tools**
+
 • Python: pandas, numpy, scikit-learn, matplotlib  
 • SQL (intermediate joins, filters, data prep)  
 • Excel for quick sensitivity checks and calculations  
 
 **Business Communication**
+
 • Insight-driven reporting  
 • Translating analytics into credit strategy  
 • Structured documentation for decision stakeholders  
