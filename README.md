@@ -5,6 +5,7 @@ It is designed as a technical learning portfolio covering credit-decision logic,
 
 # Credit Decisioning  
 The focus is on:
+
 • Understanding how lending decisions are made through rule-based credit decisioning and segmentation logic  
 • Applying quantitative methods to real-world credit problems  
 • Demonstrating business logic, segmentation, PD drivers, and portfolio monitoring  
@@ -12,6 +13,7 @@ The focus is on:
 
 # Risk Analyst
 The focus is on:
+
 • Monitoring MoM and rolling-window trends  
 • Identifying deterioration signals  
 • Assessing concentration risk  
@@ -25,9 +27,10 @@ The focus is on:
 
 
 # Risk Narrative & Stakeholder Reporting
-Structured commentary: what moved, why it moved, what it means
-Clear articulation of drivers and risk implications
-Insight-focused, business-oriented reporting
+
+• Structured commentary: what moved, why it moved, what it means  
+• Clear articulation of drivers and risk implications  
+• Insight-focused, business-oriented reporting  
 
 
 ---
